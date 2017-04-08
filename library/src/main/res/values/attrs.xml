@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimationImageView">
+        <attr name="aiv_oneshot" format="boolean"/>
+        <attr name="aiv_animationlist" format="reference"/>
+        <attr name="aiv_runonshow" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="ClipImageView">
+        <attr name="civ_padding_left" format="integer"/>
+        <attr name="civ_padding_top" format="integer"/>
+        <attr name="civ_padding_right" format="integer"/>
+        <attr name="civ_padding_bottom" format="integer"/>
+        <attr name="civ_clip_gravity">
+            <flag name="center" value="12"/>
+        </attr>
+        <attr name="civ_width" format="integer"/>
+        <attr name="civ_height" format="integer"/>
+        <attr name="civ_src" format="reference"/>
+    </declare-styleable>
+</resources>
