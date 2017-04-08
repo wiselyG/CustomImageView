@@ -39,11 +39,11 @@ xml中使用
          />
 ```
 
-`civ_src``civ_width``civ_height`这三个是必备参数，其它可选。
+`civ_src civ_width civ_height`这三个是必备参数，其它可选。
 `civ_src`可以通过在代码中用方法设置
 
-`civ_padding_left``civ_padding_right`同时存在，默认使用`civ_padding_left`
+`civ_padding_left civ_padding_right`同时存在，默认使用`civ_padding_left`
 
-`civ_padding_top``civ_padding_bottom`同时存在，默认使用`civ_padding_top`
+`civ_padding_top civ_padding_bottom`同时存在，默认使用`civ_padding_top`
 
 `civ_clip_gravity`存在时，忽略其它padding参数
