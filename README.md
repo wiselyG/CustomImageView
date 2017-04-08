@@ -30,7 +30,7 @@ xml中使用
         android:layout_height="wrap_content"
         app:civ_height="640"//截取的图片高度
         app:civ_src="@drawable/image_bak"//截取对象
-        app:civ_width="800"//截取的图片高度
+        app:civ_width="800"//截取的图片宽度
         app:civ_padding_left=""//左边距
         app:civ_padding_top=""//上边距
         app:civ_padding_bottom=""//下边距
@@ -39,5 +39,5 @@ xml中使用
          />
 ```
 
-`civ_src``civ_width``civ_height`这三个是必备参数，其它可选
+`civ_src``civ_width``civ_height`这三个是必备参数，其它可选。
 `civ_src`可以通过在代码中用方法设置
